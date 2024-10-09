@@ -20,4 +20,7 @@ uuid = "autodesk.htoa"
 build_command = "python {root}/build.py {install}"
 
 def commands():
+    if "\\\\svm-users\\dev" in root:
+        root = root.replace("\\\\svm-users\\dev", "Z:")
+
     env.HOUDINI_PACKAGE_DIR.prepend("{root}/houdini/packages") 
