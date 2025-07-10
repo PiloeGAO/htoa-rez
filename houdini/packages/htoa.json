@@ -15,7 +15,7 @@
                 {"houdini_os=='linux' and houdini_platform_build=='gcc.11.2'": "_gcc11"}
             ]
         },
-        {"HTOA_ROOT": "C:/Program Files/Autodesk/Arnold/Htoa/htoa-6.3.4.1_re0e79ae_houdini-20.5.332"},
+        {"HTOA_ROOT": "C:/Program Files/Autodesk/Arnold/htoa-6.4.2.2_r0e92b0c_houdini-20.5.584"},
         {"HTOA_ROOT": "${HTOA_ROOT}${HTOA_PY_SUFFIX}${HTOA_GCC_SUFFIX}"},
         {"HOUDINI_PATH": [
                 {

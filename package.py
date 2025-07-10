@@ -1,13 +1,13 @@
 name = "htoa"
 
-version = "6.3.4.1"
+version = "6.4.2.2"
 
 authors = [
     "Autodesk"
 ]
 
 requires = [
-    "houdini-20.5.332",
+    "houdini-20.5.584",
 ]
 
 description = \
