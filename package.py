@@ -1,13 +1,13 @@
 name = "htoa"
 
-version = "6.4.2.2"
+version = "6.4.4.0"
 
 authors = [
     "Autodesk"
 ]
 
 requires = [
-    "houdini-20.5.584",
+    "houdini-21.0.440",
 ]
 
 description = \
@@ -20,7 +20,7 @@ uuid = "autodesk.htoa"
 build_command = "python {root}/build.py {install}"
 
 def commands():
-    if "\\\\svm-users\\dev" in root:
-        root = root.replace("\\\\svm-users\\dev", "Z:")
+    if "\\\\srv-sto-02\\dev" in root:
+        root = root.replace("\\\\srv-sto-02\\dev", "Z:")
 
     env.HOUDINI_PACKAGE_DIR.prepend("{root}/houdini/packages") 
